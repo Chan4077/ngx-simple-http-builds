@@ -29,7 +29,7 @@ Also ensure that your app is running at least Angular 6 before continuing.
 
 ### Installing
 
-Run the following comamnd which should install the `latest` version (`1.0.0-b07cf76-alpha.3`):
+Run the following comamnd which should install the `latest` version (`1.0.0-5ae78fe-alpha.3`):
 
 ```bash
 npm install ngx-simple-http --save
