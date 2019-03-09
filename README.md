@@ -9,7 +9,7 @@
 <!-- Badges -->
 [![ngx-simple-http@latest](https://img.shields.io/npm/v/ngx-simple-http.svg?style=flat-square)][package-url]
 [![ngx-simple-http@next](https://img.shields.io/npm/v/ngx-simple-http/next.svg?style=flat-square)][package-url]
-[![Build Status](https://img.shields.io/travis/Chan4077/ngx-simple-http.svg?style=flat-square)](https://travis-ci.org/Chan4077/ngx-simple-http)
+[![Build Status](https://img.shields.io/travis/com/Chan4077/ngx-simple-http.svg?style=flat-square)](https://travis-ci.com/Chan4077/ngx-simple-http)
 [![GitHub contributors](https://img.shields.io/github/contributors/Chan4077/ngx-simple-http.svg?style=flat-square)](https://github.com/Chan4077/ngx-simple-http/graphs/contributors)
 [![ngx-simple-http license](https://img.shields.io/github/license/Chan4077/ngx-simple-http.svg?style=flat-square)](https://github.com/Chan4077/ngx-simple-http/blob/master/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Chan4077/ngx-simple-http.svg?style=flat-square)](https://github.com/Chan4077/ngx-simple-http/commits)
@@ -29,7 +29,7 @@ Also ensure that your app is running at least Angular 6 before continuing.
 
 ### Installing
 
-Run the following comamnd which should install the `latest` version (`1.0.0-6f8b8c0`):
+Run the following comamnd which should install the `latest` version (`1.0.0-ea24131`):
 
 ```bash
 npm install ngx-simple-http --save
