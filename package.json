@@ -1,7 +1,7 @@
 {
   "name": "ngx-simple-http",
   "description": "Simplified HTTP requests using Angular's HttpClient.",
-  "version": "1.0.0-9f760a6",
+  "version": "1.0.0-a853d4e",
   "license": "MIT",
   "keywords": [
     "angular",
