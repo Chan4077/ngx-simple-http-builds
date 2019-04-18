@@ -6,7 +6,7 @@ import { Version, Injectable, NgModule, defineInjectable, inject } from '@angula
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /** @type {?} */
-const VERSION = new Version('1.0.0-5cc2f19-5cc2f19');
+const VERSION = new Version('1.0.0-d17a7dc-d17a7dc');
 
 /**
  * @fileoverview added by tsickle
@@ -20,7 +20,7 @@ class SimpleHttpService {
         this.http = http;
     }
     /**
-     * Generates the query parameters to be used for a HTTP DELETE request
+     * Constructs and sends a HTTP DELETE request
      * @template P, R
      * @param {?} apiEndpoint The API endpoint
      * @param {?} apiParams Parameters to append to the API endpoint
@@ -48,7 +48,7 @@ class SimpleHttpService {
         }
     }
     /**
-     * Generates the query parameters to be used for a HTTP GET request
+     * Constructs and sends a HTTP GET request
      * @template P, R
      * @param {?} apiEndpoint The API endpoint
      * @param {?} apiParams Parameters to append to the API endpoint
@@ -76,7 +76,7 @@ class SimpleHttpService {
         }
     }
     /**
-     * Generates the query parameters to be used with the API endpoint
+     * Constructs and sends a HTTP POST request
      * @template B, P, R
      * @param {?} apiEndpoint The API endpoint
      * @param {?} apiParams Parameters to append to the API endpoint
@@ -120,7 +120,7 @@ class SimpleHttpService {
         }
     }
     /**
-     * Generates the query parameters to be used with the API endpoint
+     * Constructs and sends a HTTP PUT request
      * @template B, P, R
      * @param {?} apiEndpoint The API endpoint
      * @param {?} apiParams Parameters to append to the API endpoint

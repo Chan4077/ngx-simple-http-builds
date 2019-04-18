@@ -9,7 +9,7 @@
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     /** @type {?} */
-    var VERSION = new i0.Version('1.0.0-5cc2f19-5cc2f19');
+    var VERSION = new i0.Version('1.0.0-d17a7dc-d17a7dc');
 
     /**
      * @fileoverview added by tsickle
@@ -20,14 +20,16 @@
             this.http = http;
         }
         /**
-         * Generates the query parameters to be used for a HTTP DELETE request
+         * Constructs and sends a HTTP DELETE request
          * @param apiEndpoint The API endpoint
          * @param apiParams Parameters to append to the API endpoint
          * @param apiHeaders HTTP headers to append to the request
+         * @template P A TypeScript interface to type the HTTP request's parameters to
+         * @template R A TypeScript interface to type the HTTP request's response to
          * @return A `HttpClient` instance
          */
         /**
-         * Generates the query parameters to be used for a HTTP DELETE request
+         * Constructs and sends a HTTP DELETE request
          * @template P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -35,7 +37,7 @@
          * @return {?} A `HttpClient` instance
          */
         SimpleHttpService.prototype.createHttpDelete = /**
-         * Generates the query parameters to be used for a HTTP DELETE request
+         * Constructs and sends a HTTP DELETE request
          * @template P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -66,14 +68,16 @@
                 }
             };
         /**
-         * Generates the query parameters to be used for a HTTP GET request
+         * Constructs and sends a HTTP GET request
          * @param apiEndpoint The API endpoint
          * @param apiParams Parameters to append to the API endpoint
          * @param apiHeaders HTTP headers to append to the request
+         * @template P A TypeScript interface to type the HTTP request's parameters to
+         * @template R A TypeScript interface to type the HTTP request's response to
          * @return A `HttpClient` instance
          */
         /**
-         * Generates the query parameters to be used for a HTTP GET request
+         * Constructs and sends a HTTP GET request
          * @template P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -81,7 +85,7 @@
          * @return {?} A `HttpClient` instance
          */
         SimpleHttpService.prototype.createHttpGet = /**
-         * Generates the query parameters to be used for a HTTP GET request
+         * Constructs and sends a HTTP GET request
          * @template P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -112,15 +116,18 @@
                 }
             };
         /**
-         * Generates the query parameters to be used with the API endpoint
+         * Constructs and sends a HTTP POST request
          * @param apiEndpoint The API endpoint
          * @param apiParams Parameters to append to the API endpoint
          * @param apiBody The request body
          * @param apiHeaders HTTP headers to append to the request
+         * @template B A TypeScript interface to type the HTTP request's body to
+         * @template P A TypeScript interface to type the HTTP request's parameters to
+         * @template R A TypeScript interface to type the HTTP request's response to
          * @return A `HttpClient` instance
          */
         /**
-         * Generates the query parameters to be used with the API endpoint
+         * Constructs and sends a HTTP POST request
          * @template B, P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -129,7 +136,7 @@
          * @return {?} A `HttpClient` instance
          */
         SimpleHttpService.prototype.createHttpPost = /**
-         * Generates the query parameters to be used with the API endpoint
+         * Constructs and sends a HTTP POST request
          * @template B, P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -179,15 +186,18 @@
                 }
             };
         /**
-         * Generates the query parameters to be used with the API endpoint
+         * Constructs and sends a HTTP PUT request
          * @param apiEndpoint The API endpoint
          * @param apiParams Parameters to append to the API endpoint
          * @param apiBody The request body
          * @param apiHeaders HTTP headers to append to the request
+         * @template B A TypeScript interface to type the HTTP request's body to
+         * @template P A TypeScript interface to type the HTTP request's parameters to
+         * @template R A TypeScript interface to type the HTTP request's response to
          * @return A `HttpClient` instance
          */
         /**
-         * Generates the query parameters to be used with the API endpoint
+         * Constructs and sends a HTTP PUT request
          * @template B, P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
@@ -196,7 +206,7 @@
          * @return {?} A `HttpClient` instance
          */
         SimpleHttpService.prototype.createHttpPut = /**
-         * Generates the query parameters to be used with the API endpoint
+         * Constructs and sends a HTTP PUT request
          * @template B, P, R
          * @param {?} apiEndpoint The API endpoint
          * @param {?} apiParams Parameters to append to the API endpoint
