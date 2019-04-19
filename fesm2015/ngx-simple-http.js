@@ -6,7 +6,7 @@ import { Version, Injectable, NgModule, defineInjectable, inject } from '@angula
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /** @type {?} */
-const VERSION = new Version('1.0.0-1fd619b-1fd619b');
+const VERSION = new Version('1.0.0-fcd545d-fcd545d');
 
 /**
  * @fileoverview added by tsickle
